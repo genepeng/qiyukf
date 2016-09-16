@@ -1,0 +1,32 @@
+{
+    "name": "genepeng/qiyukf",
+    "description": "qiyukf sdk",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Gene Peng",
+            "email": "penggene@gmail.com"
+        }
+    ],
+    "keywords": [
+        "qiyukf",
+        "网易七鱼客服",
+        "qiyukf sdk"
+    ],
+    "require": {
+        "php":">=5.5.0",
+        "ext-openssl": "*",
+        "pimple/pimple": "~3.0",
+        "monolog/monolog": "^1.17",
+        "doctrine/cache": "~1.4",
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/http-foundation": "~2.6|~2.7|~2.8|~3.0",
+        "symfony/psr-http-message-bridge": "0.2"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "genepeng\\qiyukf\\": "src/"
+        }
+    }
+}
