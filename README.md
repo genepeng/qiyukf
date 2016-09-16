@@ -21,8 +21,8 @@ $config = [
 ];
 $qiyu = new ServiceContainer($config);
 $message = new Text();
-$message->setContent('test composer package');
-$message->setUid('gene.at.home');
+$message->setContent('test message via genepeng/qiyukf');
+$message->setUid('user-id-of-your-app');
 $qiyu->message->send($message);
 ```
 
