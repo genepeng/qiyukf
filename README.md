@@ -3,7 +3,7 @@ PHP SDK for qiyukf
 
 ## Installation  
 ```shell
-composer require genepeng/qiyukf`
+composer require genepeng/qiyukf
 ```
 
 ## Example for sending message
