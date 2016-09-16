@@ -5,9 +5,12 @@
     "authors": [
         {
             "name": "Gene Peng",
-            "email": "penggene@gmail.com"
+            "email": "penggene@gmail.com",
+            "homepage": "http://genepeng.com",
         }
     ],
+    "homepage": "https://github.com/genepeng/qiyukf",
+    "license": "MIT",
     "keywords": [
         "qiyukf",
         "网易七鱼客服",
