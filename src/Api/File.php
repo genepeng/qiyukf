@@ -8,7 +8,7 @@ class File extends AbstractApi
 
     /**
      * upload file to qiyu
-     * 
+     *
      * @param $filePath local file path
      * @return mixed
      */
